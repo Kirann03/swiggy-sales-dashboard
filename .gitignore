@@ -1,0 +1,30 @@
+# Excel temporary/lock files
+~$*.xls*
+*.tmp
+*.temp
+
+# Office recovery files
+*.asd
+*.wbk
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE/editor files
+.vscode/
+.idea/
+
+# Python cache (if analysis scripts are added later)
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Generated exports
+exports/
+*.pdf
+
+# Local/private notes
+.env
+.env.*

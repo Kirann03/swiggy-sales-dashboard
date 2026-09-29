@@ -1,0 +1,48 @@
+GITHUB SETUP
+============
+
+1. Open PowerShell in this folder:
+
+   cd path\to\swiggy-sales-dashboard
+
+2. Initialize Git:
+
+   git init
+
+3. Configure your Git identity if needed:
+
+   git config --global user.name "YOUR NAME"
+   git config --global user.email "YOUR_EMAIL"
+
+4. Add the files:
+
+   git add .
+
+5. Review what will be committed:
+
+   git status
+
+6. Create the first commit:
+
+   git commit -m "Add Swiggy Excel analytics dashboard with VBA automation"
+
+7. Create an empty GitHub repository named:
+
+   swiggy-sales-dashboard
+
+   Do not add another README from GitHub if you are using this README.
+
+8. Connect the repository (replace YOUR_USERNAME):
+
+   git branch -M main
+   git remote add origin https://github.com/YOUR_USERNAME/swiggy-sales-dashboard.git
+
+9. Push:
+
+   git push -u origin main
+
+10. Future updates:
+
+   git add .
+   git commit -m "Update Swiggy dashboard"
+   git push
